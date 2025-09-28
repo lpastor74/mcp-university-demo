@@ -1,0 +1,9 @@
+
+mcp==1.14.1
+motor==3.5.1
+pydantic>=2.11,<3
+aiohttp>=3.9
+python-dotenv>=1.0
+PyJWT[crypto]>=2.9
+cryptography>=42
+typing-extensions>=4.1

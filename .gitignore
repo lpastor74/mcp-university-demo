@@ -1,0 +1,11 @@
+# Python & env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+.mcp-auth/
+# OS & editor junk
+.DS_Store
+*.log

@@ -1,11 +1,16 @@
-# Python & env
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .venv/
 venv/
 .env
 .env.*
-.mcp-auth/
-# OS & editor junk
+# OS / editors
 .DS_Store
+.idea/
+.vscode/
+# Logs
 *.log
+.mcp-auth/

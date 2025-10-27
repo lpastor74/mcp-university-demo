@@ -2,10 +2,14 @@
 # MCP Server — University Demo
 
 A practical demo showing how an AI Agent talks to an MCP Server with Asgardeo (OIDC) for secure login and policy-controlled actions. We built this on the MCP SDK after finding most off-the-shelf agents unstable for real demos. It’s designed for universities: browse courses, authenticate, and attempt enrollment under clear guardrails.
+
 	•	Live Playground: https://ai-playground.choreoapps.dev/
+
 	•	Repo: https://github.com/lpastor74/mcp-university-demo
 
+
 What you’ll see
+
 	•	Secure Auth (OIDC + PKCE via Asgardeo): Login before any action.
 	•	Course Catalog & Enrollment: View available courses; request enrollment.
 	•	Business Rules (demo):
@@ -15,29 +19,24 @@ What you’ll see
 	•	Choreo-ready: Deployed demo is hosted on Choreo; works locally too.
 
 Architecture (at a glance)
-[User/Student] 
-     │ (Login via OIDC/PKCE)
-     ▼
-[Asgardeo Identity]
-     │ (tokens/claims)
-     ▼
-[AI Agent] ──(MCP protocol)──► [MCP Server (MCP SDK)]
-                                   │
-                                   ├─ Course tool (list/read)
-                                   └─ Enrollment tool (apply + rules)
+comming soon
 
 Prerequisites
-	•	Node.js 22.x (recommendation; resolves known npx/runner hiccups)
-	•	Asgardeo tenant & OIDC application (Authorization Code + PKCE)
-	•	Authorized redirect URLs (examples; adjust to your port):
-	•	http://localhost:*/oauth/callback
-	•	http://127.0.0.1:*/oauth/callback
+	- Node.js 22.x (recommendation; resolves known npx/runner hiccups)
+	- Asgardeo tenant & OIDC application (Authorization Code + PKCE)
+
+	- Authorized redirect URLs (examples; adjust to your port):
+
+	    http://localhost:*/oauth/callback
+	    http://127.0.0.1:*/oauth/callback
 
 Note: Some tools claim fixed-port config for local agents; results vary. This demo avoids that instability.
 
 Quick Start (local)
+
 	1.	Clone           
      git clone https://github.com/lpastor74/mcp-university-demo.git
+
      cd mcp-university-demo 
 
      2.	Configure
@@ -86,9 +85,13 @@ Quick Start (local)
     
 
 Configuration Tips
-	•	Node version: If the MCP runner becomes unresponsive, ensure Node 22.x and remove old toolchains.              
+
+	•	Node version: If the MCP runner becomes unresponsive, ensure Node 22.x and remove old toolchains.    
+
     •  Notes (DB Requirement)
 
 This demo requires a database. We use MongoDB to store courses and enrollments.
+
 	•	Default DB name: university_demo
+    
 	•	Collections: courses, enrollments, studens

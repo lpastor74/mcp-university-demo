@@ -1,0 +1,15 @@
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf637f"},"courseCode":"AI-201","title":"Digital AI Usage","semester":"summer","year":2026,"price":1200.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6380"},"courseCode":"CS-101","title":"Intro to CS","semester":"fall","year":2024,"price":900.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6381"},"courseCode":"DS-301","title":"Data Systems","semester":"fall","year":2024,"price":1100.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6382"},"courseCode":"ML-401","title":"Applied Machine Learning","semester":"spring","year":2025,"price":1400.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6383"},"courseCode":"SE-222","title":"Software Engineering II","semester":"spring","year":2026,"price":1000.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6384"},"courseCode":"NW-110","title":"Computer Networks","semester":"fall","year":2025,"price":1050.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6385"},"courseCode":"DB-210","title":"Relational Databases","semester":"spring","year":2025,"price":950.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6386"},"courseCode":"CL-330","title":"Cloud Fundamentals","semester":"summer","year":2025,"price":1150.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6387"},"courseCode":"SEC-350","title":"Practical Security","semester":"fall","year":2025,"price":1300.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6388"},"courseCode":"FE-120","title":"Frontend Basics","semester":"winter","year":2025,"price":800.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf6389"},"courseCode":"BE-220","title":"Backend Services","semester":"winter","year":2025,"price":950.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf638a"},"courseCode":"DM-250","title":"Data Modeling","semester":"spring","year":2026,"price":1100.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf638b"},"courseCode":"IR-340","title":"Information Retrieval","semester":"fall","year":2026,"price":1250.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf638c"},"courseCode":"DV-360","title":"Data Visualization","semester":"summer","year":2026,"price":1150.0,"createdBy":"academic-1"}
+{"_id":{"$oid":"68d6ca1b3c6f1a70f0bf638d"},"courseCode":"OPS-300","title":"DevOps Practices","semester":"fall","year":2024,"price":1200.0,"createdBy":"academic-1"}
